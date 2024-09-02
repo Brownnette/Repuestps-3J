@@ -1,0 +1,110 @@
+/*(Logo y título todas las páginas)*/
+head{font-family:sans-serif ;}
+header{
+    display: flex;
+    justify-content: s;
+    justify-content:space-between ;
+    background-color: rgb(51, 85, 237);
+    margin: 0;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.logo{height: 125px; width: 150px;margin: 0%;margin-right: 10px;}
+.logos {
+    display: flex;
+    align-items: center;
+    margin:0px ;
+}
+.logo-nombre{padding: 0px;margin-left: 0;font-size: 40px;color: black;}
+
+a{text-decoration: none;color: black;
+}
+
+.check{display: flex; position: absolute; top: 30px; left: 40px;}
+
+/*(Listas barra navegación)*/
+nav{display: flex; justify-content: space-around;align-items: start;}
+nav.a{font-weight: 600;padding-left: 10px;}
+
+.nav__item:hover{background-color: white;display: inline;} 
+.nav{background-color: rgb(51, 85, 237);
+    text-decoration: none /*(quita los puntitos de enumerar)*/;
+    padding: 0px 0px ;
+    text-align: center;
+flex-wrap: nowrap ; }
+.nav__compra{background-color: rgb(237, 128, 51);display: inline;font-size: 25px;padding: 40px;border-radius: 10px;}
+
+
+.nav__item{padding: 20px;display: inline;flex-direction: row;font-size: 25px;place-content:initial}
+
+.nav_list-sub{ display: none/*(para que no salga la lista)*/;
+    position: absolute; 
+    min-width: 40px
+}
+
+/*Barra de busqueda*/
+.barra{position: absolute; top: 20%; translate: (-50%,-50%);padding: 10px;height: 20px;box-sizing: border-box}
+input{outline: none;box-sizing: border-box;height: 80px;width: 300px;padding: 0 20px;color: black;border-radius: 50px;font-size: 20px;border: 1px solid #f09d0d;}
+/*btn{display: flex ;position: relative;right:11px;bottom: 60px;width: 40px;height: 40px;background: orange;line-height: 80px;text-align: center;cursor: pointer;transition: .5s;border-radius: 100%, ;top:2%;border-radius: 50%;}*/
+.btn i {font-size: 25px;color: white;line-height: 80px; transition: all .7 ease;height: 80px;}
+
+
+/*Barra de busqueda repuestos*/
+.barra2{display: flex;position: relative;background-color: #0df053; top: 60%;max-width: 1850px;min-width: 50px}
+
+
+
+/*(formulario)*/
+h2{font-size: 0px; color: black;text-transform: capitalize;}
+.form_imput{background-color: #ededed; /*(Background del formulario*/
+    max-width: 600px;
+padding:  0px;
+margin: 0px;
+box-shadow: 0 0 30px;color:black /*(Le da brillo al formulario)*/;} 
+
+
+
+
+/*Compra repuestos botones <!--Servicios página medio-->  */
+.Compraotros{    display:flex;   justify-content: space-evenly;
+}
+
+body{background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-azul-suave-textura-grunge-abstracta_1055-19624.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1717891200&semt=ais_user);} /*le da color al background*/
+.Compraotros{display: flex; background-image: url(https://serviciobogota.com.co/images/slider1.webp);background-repeat: no-repeat;background-size: 1850px;width: 1830px;height: 500px;border-radius: 30px;margin-top: 50px;}
+
+.comprarep{
+    background-color: orange;display: flex inline;height: 80px;width: 200px;align-content:  center;border-radius: 50px;text-align: center ;margin: 2px; font-size: 25px;display: block;position: absolute;right: 950px;}
+
+.otrosserv{background-color: rgb(51, 85, 237) ;display: flex inline ;height: 80px;width: 200px;border-radius: 50px;text-align: center;align-content: center; font-size: 25px;text-align: center; display: block;position: absolute;right: 700px;}
+
+.VentaRep{background-color:rgb(51, 85, 237) ;display: flex inline-block;overflow: auto ;height: 300px;width: 400px;border-radius: 50px;text-align: center;align-content: center; font-size: 25px;text-align: center;justify-content: flex-end space-between;position: relative;top: 300px;}
+.ServicioTec{background-color:rgb(51, 85, 237) ;display: flex inline-block;overflow: auto ;height: 300px;width: 400px;border-radius: 50px;text-align: center;align-content: center; font-size: 25px;text-align: center;justify-content: flex-end space-bet;position: relative;top: 300px;}
+
+.otrosservi{background-color:rgb(51, 85, 237) ;display: flex inline-block;overflow: auto ;height: 300px;width: 400px;border-radius: 50px;text-align: center;align-content: center; font-size: 25px;text-align: center;justify-content: flex-end space-evenly;position: relative;top: 300px;}
+
+
+
+/*Barra busqueda de repuestps*/
+.barra3{display: flex;justify-content: space-between;top: 100px;background-color: rgb(51, 85, 237);
+    padding: 0px 0px ;
+    text-align: center;
+flex-wrap: nowrap ;position: relative; text-decoration: none}
+.barra3_list{display: flex ;flex-direction: row;font-size: 25px;place-content:initial;background-color: #f09d0d}
+
+.barra3_item{display: flexbox;}
+
+
+
+/* (Other)*/
+.btn-wsp{
+    position: flex;
+    width: 55px;
+    line-height:  55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+}
+
+
