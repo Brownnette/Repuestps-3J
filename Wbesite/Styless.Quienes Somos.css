@@ -1,0 +1,40 @@
+/*(Logo y título todas las páginas)*/
+head{font-family:sans-serif ;}
+header{
+    display: flex;
+    justify-content:space-between ;
+    background-color: rgb(51, 85, 237);
+    margin: 0;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-between;
+    border-radius: 10px;
+;
+}
+.logo{height: 125px; width: 150px;margin: 0%;margin-right: 10px;}
+.logos {
+    display: flex;
+    align-items: center;
+    margin:0px ;
+}
+.logo-nombre{padding: 0px;margin-left: 0;font-size: 40px;color: black;}
+
+a{text-decoration: none;color: black;
+}
+
+.check{display: flex; position: absolute; top: 30px; left: 40px;}
+
+/*(Listas barra navegación)*/
+nav{display: flex; justify-content: space-around;align-items: start;}
+nav.a{font-weight: 600;padding-left: 10px;}
+
+.nav__item:hover{background-color: white;display: inline;} 
+.nav{background-color: rgb(51, 85, 237);
+    text-decoration: none /*(quita los puntitos de enumerar)*/;
+    padding: 0px 0px ;
+    text-align: center;
+flex-wrap: nowrap ; }
+.nav__compra{background-color: rgb(237, 128, 51);display: inline;font-size: 25px;padding: 40px;border-radius: 10px;}
+
+body{background-image: url(https://img.freepik.com/vector-gratis/diseno-fondo-azul-suave-textura-grunge-abstracta_1055-19624.jpg?size=626&ext=jpg&ga=GA1.1.672697106.1717891200&semt=ais_user);} /*le da color al background*/
+.Compraotros{display: flex; background-image: url(https://serviciobogota.com.co/images/slider1.webp);background-repeat: no-repeat;background-size: 1850px;width: 1830px;height: 500px;border-radius: 30px;margin-top: 50px;}

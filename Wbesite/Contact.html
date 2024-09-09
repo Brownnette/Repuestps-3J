@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,21 +47,44 @@
 
 <br>
 
+<!---Formulario -->
+        <!--Bloque: Registro-->
+        <form id="Contactenos">
 
-<body>
-    <h1>Formulario de Registro</h1>
-    <form id="registroForm">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre">
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <br>
-        <button type="submit">Enviar</button>
-    </form>
-    <div id="errores" class="error"></div> <!-- Para mostrar mensajes de error -->
-</body>
-</html>
+            <!-- Elemento: register__form -->
+                <form class="Contactenos">
+                    <!--Elemento: register__fieldset Títulos -->
+                    <fieldset class="register__fieldset">
+
+                        <div class="register__field">
+                            <label class="register__label" for="FirstName">Nombre *</label>
+                            <input class="register__input" type="text" name="FirstNameInput" id="name" minlength="2" maxlength="15" required>
+                        </div>
+    
+                        <!--Elemento: register__field Apellido-->
+                        <div class="register__field">
+                            <label class="register__label" for="LastName">Apellido *</label>
+                            <input class="register__input" type="text" name="LastNameInput" id="surname" minlength="2" maxlength="15" required>
+                        </div>
+    
+                        <!--Elemento: register__field Email-->
+                        <div class="register__field">
+                            <label class="register__label" for="Email">Email *</label>
+                            <input class="register__input" type="email" name="EmailInput" id="email" required>
+                        </div>
+                        
+                        <!--Elemento: register__field Teléfono-->
+                        <div class="register__field">
+                            <label class="register__label" for="Phone">Teléfono</label>
+                            <input class="register__input" type="number" name="PhoneInput" id="phone" min="8" max="999999999999" placeholder="(+IndicadorPais) Telefono">
+                        </div>
+    
+                        <!--Elemento: register__field Submit button-->
+                        <div class="enviar"><input type="submit" class="register__button"></div>
+</div>
+<div id="errores" class="error"></div> <!-- Para mostrar mensajes de error -->
+
+<br>
 
 <footer class="footer">
     <div class="footer__social">

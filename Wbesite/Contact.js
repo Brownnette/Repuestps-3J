@@ -4,11 +4,20 @@ function validarFormulario(event) {
     console.log('Función validarFormulario llamada');
     event.preventDefault(); // Evita el envío del formulario para validación
 
-    var nombre = document.getElementById('nombre').value;
-    var email = document.getElementById('email').value;
+    var nombre = document.getElementById('FirstName').value;
+    var apellido = document.getElementById('LastName').value;
+    var telefono = document.getElementById('Phone').value;
+    var email = document.getElementById('Email').value;
+
     var errorMensaje = '';
 
     if (nombre === '') {
+        errorMensaje += 'El nombre es obligatorio.<br>';
+    }
+    if (apellido === '') {
+        errorMensaje += 'El nombre es obligatorio.<br>';
+    }
+    if (telefono === '') {
         errorMensaje += 'El nombre es obligatorio.<br>';
     }
     if (email === '') {
@@ -23,6 +32,5 @@ function validarFormulario(event) {
         alert('Formulario enviado correctamente.');
     }
 }
-
 // Vincular la función de validación al evento de envío del formulario
-document.getElementById('registroForm').addEventListener('submit', validarFormulario);
+document.getElementById('Contactenos').addEventListener('submit', validarFormulario);
