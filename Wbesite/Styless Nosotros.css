@@ -33,7 +33,7 @@ header{
         text-decoration: none /*(quita los puntitos de enumerar)*/;
         padding: 0px 0px ;
         text-align: center;
-    flex-wrap: nowrap ; }
+    flex-wrap: nowrap ;}
     .nav__compra{background-color: rgb(255, 87, 34);display: inline;font-size: 25px;padding: 40px;border-radius: 10px;}
 
 
