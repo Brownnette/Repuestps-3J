@@ -7,14 +7,44 @@
     <link rel="stylesheet" href="Styless.servicios.css">
 
 </head>
+<!---Esto le da el head (color y el loco a la página)-->
 <header>
-    <img src="Imágenes/Logos.jpg" alt="logos" width="100" height="100">
-    <h2 class="logo-nombre">Repuestos 3J</h2>
-    <a href="Index.html">Volver al inicio</a>
-</header>
+    <a href="Nosotros.html" class="logos">
+        <img src="Imágenes/Logos.jpg" alt="logos" width="50" height="50" class="logo">
+        <h2 class="logo-nombre">Repuestos 3J</h2>
+    </a>  
+    
+    <!---Esto es el menú de opciones-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a class="nav__link" href="Index.html"> Inicio</a> </li>
+            <li class="nav__item">
+                <a class="nav__link" href="Repuestos.html"> Repuestos</a> </li>
+            <li  class="nav__item">
+                <a class="nav__link" href="Servicios.html" > Servicios </a> </li>    
+            <li class="nav__item">
+                <a class="nav__link" href="Quienes_somos.html"> Sobre nosotros</a> </li>
+                <li class="nav__compra">
+                    <a class="nav__link" href="Iniciar_sesión.html"> Iniciar sesión</a> </li>
+            <ul class="nav_list-sub">
+                <Li><a href="Servicios.html">Lavadoras</a></Li>
+                <Li><a href="Neveras.html">Neveras</a></Li>
+            </ul>
+        </ul>
+        
+        </li>
+    
+    </ul>
+    </ul>
+    
+        </nav>       
+        </header>  
+    </header>
 <h1>Nuesros servicios</h2>
 <body>
     <div class="Servicios">
+        <div class="Lavadoras">
         <h2>Lavadoras</h2>
         <ol>
 
@@ -54,6 +84,48 @@
         
 </div>
     
-</body>
-</html>
 
+    <div class="Neveras">
+    <h2>Neveras</h2>
+    <ol>
+<div class="Servicio1">
+    <li>Compra y venta</li>
+<p>
+Ofrecemos una amplia gama de lavadoras nuevas y usadas para satisfacer todas tus necesidades. Ya sea que busques una lavadora de última tecnología o una opción económica de segunda mano, nuestro inventario está cuidadosamente seleccionado para garantizar calidad y buen rendimiento. Nuestro equipo está disponible para asesorarte y ayudarte a encontrar el modelo perfecto que se ajuste a tu presupuesto y requerimientos.
+</p>
+</ol>
+</div>
+</div>
+
+</body>
+
+<!--Foote-->
+
+<footer class="footer">
+    <div class="InformacionFooter">
+<div class="Info">
+<p>Dirección:</p>
+<p>Teléfono:</p>
+<p>Horarios:</p>
+
+</div>
+    <div class="Suscripcion">
+        <p>SUSCRIBASE Y OBTENGA 5% DE DESCUENTO    </p>
+        <div class="register__field2">
+            <label class="register__label" for="Email">Email *</label>
+            <input class="register__input" type="email" name="EmailInput" id="email" required>
+        </div>
+            <div class="enviar"><input type="submit" class="register__button2"></div>
+        </div>
+    </div>
+
+
+
+    <div class="footer__info">
+        <p>&copy; 2024 3J. Todos los derechos reservados.</p>
+        <p><a href="Políticas_de_envío.html">Política de Envíos</a> | <a href="Contactenos.html">Contáctenos</a></p>
+    </div>
+
+
+</footer>
+</html>

@@ -29,12 +29,12 @@ header{
     nav.a{font-weight: 600;padding-left: 10px;}
 
     .nav__item:hover{background-color: white;display: inline;} 
-    .nav{background-color: rgb(0, 123, 255);
+    .nav{color: #000;background-color: rgb(0, 123, 255);
         text-decoration: none /*(quita los puntitos de enumerar)*/;
         padding: 0px 0px ;
         text-align: center;
     flex-wrap: nowrap ;}
-    .nav__compra{background-color: rgb(255, 87, 34);display: inline;font-size: 25px;padding: 40px;border-radius: 10px;}
+    .nav__compra{background-color: rgb(255, 87, 34);display: inline;font-size: 25px;padding: 40px;border-radius: 10px;text-decoration: none;}
 
 
     .nav__item{padding: 20px;display: inline;flex-direction: row;font-size: 25px;place-content:initial}
@@ -43,7 +43,7 @@ header{
         position: absolute; 
         min-width: 40px
     }
-
+.nav__link{text-decoration: none;color:#000;}
     /*Barra de busqueda*/
     input{outline: none;box-sizing: border-box;height: 80px;width: 300px;padding: 0 20px;color: black;border-radius: 50px;font-size: 20px;border: 1px solid #f09d0d;margin: 10px;}
     /*btn{display: flex ;position: relative;right:11px;bottom: 60px;width: 40px;height: 40px;background: orange;line-height: 80px;text-align: center;cursor: pointer;transition: .5s;border-radius: 100%, ;top:2%;border-radius: 50%;}*/
@@ -146,7 +146,15 @@ header{
     .Contactenos{display: flex;position: relative;}
     .form_imput{position: relative;display: flex inline;}
 
-    /* */
+    /*Footer*/
+
+.InformacionFooter{    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Crea dos columnas de igual tamaño */
+    padding: 10px; /* Opcional: agrega algo de espacio alrededor */
+    width: 100%;
+}
+
     .footer {
         background-color:rgb(0, 123, 255);
         color: black;
@@ -156,30 +164,20 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
-
-    .footer__social a {
-        color: black;
-        margin: 0 15px;
-        font-size: 24px;
-        transition: color 0.3s;
-    }
-
-    .footer__social a:hover {
-        color: orange;
-    }
+.footer__info{align-content: center;}
 
     .footer__info p {
         margin: 10px 0;
+        align-content: center;
     }
 
     .footer__info a {
         color: orange;
         text-decoration: none;
-    }
+        align-content: center;
 
-    .footer__info a:hover {
-        text-decoration: underline;
     }
 
 
@@ -195,5 +193,7 @@ header{
         right: 30px;
         background: #0df053;
     }
+
+
 
 

@@ -24,7 +24,7 @@
         <li class="nav__item">
             <a class="nav__link" href="Repuestos.html"> Repuestos</a> </li>
         <li  class="nav__item">
-            <a class="nav__lin" href="Servicios.html" > Servicios </a> </li>    
+            <a class="nav__link" href="Servicios.html" > Servicios </a> </li>    
         <li class="nav__item">
             <a class="nav__link" href="Quienes_somos.html"> Sobre nosotros</a> </li>
             <li class="nav__compra">
@@ -161,6 +161,8 @@
 </form>
 
 </Div>
+
+<div class="paginado">
 <script>
 const imagenes = [
     {nombre:"bomba",imagen: "Imágenes/Bomba.png",valor:16000 },
@@ -203,26 +205,39 @@ galeria.appendChild(div);
 mostrarProductos(1);
 
 </script>
-
+</div>
 </body>
 
 
 <br>
 <!--Foote-->
+
 <footer class="footer">
-    <div class="footer__social">
-        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="footer__info">
-        <p>&copy; 2024 TalentoTech. Todos los derechos reservados.</p>
-        <p><a href="Políticas_de_envío.html">Política de Envíos</a> | <a href="Contactenos.html">Contáctenos</a></p>
-    </div>
-</footer>
+    <div class="InformacionFooter">
+<div class="Info">
+<p>Dirección:</p>
+<p>Teléfono:</p>
+<p>Horarios:</p>
 
 </div>
+    <div class="Suscripcion">
+        <p>SUSCRIBASE Y OBTENGA 5% DE DESCUENTO    </p>
+        <div class="register__field2">
+            <label class="register__label" for="Email">Email *</label>
+            <input class="register__input" type="email" name="EmailInput" id="email" required>
+        </div>
+            <div class="enviar"><input type="submit" class="register__button2"></div>
+        </div>
+    </div>
+
+
+    <div class="footer__info">
+        <p>&copy; 2024 3J. Todos los derechos reservados.</p>
+        <p><a href="Políticas_de_envío.html">Política de Envíos</a> | <a href="Contactenos.html">Contáctenos</a></p>
+    </div>
+
+
+</footer>
 </main>
 
 </html>
