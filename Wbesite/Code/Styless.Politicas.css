@@ -46,6 +46,16 @@ header{
     }
 .nav__link{text-decoration: none;color:#000;}
 
+.Poli {
+    height: 100%; /* Asegura que el body ocupe el 100% de la altura de la pantalla */
+    margin: 50px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.Politica{background-color:  rgb(252, 142, 109);width: 50%;display: block;align-self: center;align-items: center;}
+
 
 
     /*Footer*/
