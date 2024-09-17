@@ -1,0 +1,21 @@
+{  
+  "name": "node_project",
+"version": "1.0.0",
+"description": "This is a project with Express JS Node Js and TypeScript",
+"main": "dist/app.js",
+"scripts": {
+"start": "tsc && node dist/app",
+"test": "echo \"Error: no test specified && exist 1"},
+
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "lib": ["es2016"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
